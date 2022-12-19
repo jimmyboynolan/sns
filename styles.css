@@ -1,13 +1,16 @@
 button {
-  font-size: 20px;
-  padding: 10px 20px;
+  font-size: 40px; /* Increase font size */
+  padding: 20px 40px; /* Increase button size */
+  display: block; /* Center button horizontally */
+  margin: 0 auto; /* Center button horizontally */
   background-color: lightblue;
   border: none;
   cursor: pointer;
 }
 
 #words {
-  font-size: 30px;
+  font-size: 60px; /* Increase font size */
   font-weight: bold;
   color: green;
+  text-align: center; /* Center text horizontally */
 }
