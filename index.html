@@ -8,13 +8,13 @@
     <p id="words"></p>
 
     <script>
-      const list1 = ["Big", "Massive", "Total", "Huge", "Comple and Utter", "Absolute", "Complete", "Utter"];
+      const list1 = ["Big", "Massive", "Total", "Huge", "Complete and Utter", "Absolute", "Complete", "Utter"];
       const list2 = ["Stroker", "Wand", "Flute", "Flautist", "Meat Helmet", "Baloon Knot", "Flesh Flute", "Pastrami Pipe", "Oboe", "Spud Satchel", "Pork Prong", "Sausage Scepter", "Bratwurst Baton", "Chorizo Cane", "Frankfurter Flute", "Bacon Baton", "Pant Antenna"];
 
       function displayWords() {
         let word1 = list1[Math.floor(Math.random() * list1.length)];
         let word2 = list2[Math.floor(Math.random() * list2.length)];
-        document.getElementById("words").innerHTML = `"You" ${word1} ${word2}`;
+        document.getElementById("words").innerHTML = `You ${word1} ${word2}`;
       }
     </script>
   </body>
