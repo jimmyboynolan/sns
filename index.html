@@ -1,20 +1,10 @@
 <html>
   <head>
     <title>Random Words</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <button onclick="displayWords()">Click Here</button>
+    <button id="button" onclick="displayWords()">Click Here</button>
     <p id="words"></p>
-
-    <script>
-      const list1 = ["Big", "Massive", "Total", "Huge"];
-      const list2 = ["Person", "Place", "Thing"];
-
-      function displayWords() {
-        let word1 = list1[Math.floor(Math.random() * list1.length)];
-        let word2 = list2[Math.floor(Math.random() * list2.length)];
-        document.getElementById("words").innerHTML = `${word1} ${word2}`;
-      }
-    </script>
   </body>
 </html>
