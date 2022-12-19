@@ -1,0 +1,13 @@
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+#words {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
